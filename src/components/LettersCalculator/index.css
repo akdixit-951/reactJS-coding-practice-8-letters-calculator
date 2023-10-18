@@ -1,0 +1,89 @@
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 992px) {
+  .app-container {
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.calculator-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .calculator-image {
+    width: 550px;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .calculator-image {
+    width: 700px;
+  }
+}
+
+.calculator-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 992px) {
+  .calculator-container {
+    align-items: flex-start;
+  }
+}
+
+.heading {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 46px;
+  }
+}
+
+.label {
+  font-size: 16px;
+}
+
+.letters-input {
+  margin-top: 5px;
+  background-color: transparent;
+  border: 1px solid #e4e7eb;
+  outline: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  height: 25px;
+}
+
+.button {
+  height: 60px;
+  width: 250px;
+  text-align: center;
+  color: #219a6f;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
